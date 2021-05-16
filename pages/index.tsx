@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React from 'react';
 import styles from '../styles/Home.module.css'
 
 const Home = (): JSX.Element => {
@@ -9,7 +10,7 @@ const Home = (): JSX.Element => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>Hello World</div>
+      <div>This is a starter template using nextjs, typescript and tailwindcss </div>
     </div>
   )
 }
